@@ -8,7 +8,7 @@ window.setInterval(function(){
   cps = 1
   code = code + cps
   set_element_id("mon",code)
-},1000)
+},000)
 function click(){
   code = code + 1
   document.getElementById("mon").innerHTML = code 
