@@ -1,0 +1,39 @@
+button {
+	width: 150px;
+	height: 50px;
+}
+
+.info {
+	border: 3px black solid;
+	width: fit-content; 
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 50px;
+  border-radius: 7px;
+}
+
+.shop {
+	border: 5px black solid;
+  border-radius: 25px;
+	padding: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	width: fit-content; 
+}
+
+
+img{
+  border: 1px white;
+}
+.but{
+  border-radius: 25px;
+  text-align: left;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #F8F005;
+}
