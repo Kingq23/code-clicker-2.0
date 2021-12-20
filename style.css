@@ -1,3 +1,21 @@
+button {
+	width: 150px;
+	height: 50px;
+}
+
+.info {
+	border: 3px black solid;
+	width: fit-content; 
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 50px;
+  border-radius: 7px;
+}
+h1{
+  color:gray;
+}
+p{
+  color: black
 }
 .shop {
 	border: 5px black solid;
@@ -33,6 +51,14 @@ body {
   bottom: 0; /* Position the navbar at the bottom of the page */
   left: 0;
   width: fit-content; /* Full width */
+  border: 3px black solid;
+  background-color: white;
+}
+
+/* Main content */
+.main {
+  margin-bottom: 30px; /* Add a bottom margin to avoid content overlay */
+}
   border: 3px black solid;
   background-color: white;
 }
