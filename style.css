@@ -1,17 +1,4 @@
-button {
-	width: 150px;
-	height: 50px;
 }
-
-.info {
-	border: 3px black solid;
-	width: fit-content; 
-	padding-left: 50px;
-	padding-right: 50px;
-	margin: 50px;
-  border-radius: 7px;
-}
-
 .shop {
 	border: 5px black solid;
   border-radius: 25px;
@@ -21,7 +8,10 @@ button {
 	width: fit-content; 
 }
 
-
+body { 
+  background-repeat:repeat;
+  object-fit: fill;
+}
 img{
   border: 1px white;
 }
@@ -33,6 +23,24 @@ img{
 body {
   display: flex;
   justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(199, 198, 185, 0.185);
+}
+/* The navigation bar */
+.navbar {
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 0; /* Position the navbar at the bottom of the page */
+  left: 0;
+  width: fit-content; /* Full width */
+  border: 3px black solid;
+  background-color: white;
+}
+
+/* Main content */
+.main {
+  margin-bottom: 30px; /* Add a bottom margin to avoid content overlay */
+}
   align-items: center;
   min-height: 100vh;
   background-color: #F8F005;
