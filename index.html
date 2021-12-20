@@ -7,11 +7,41 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div>
-      <p id="mon">0</p>
+  
+    
+    
+    <br>
+    <center>
+    <div class="info">
+      <p id="mon">  0</p>
       <p id="cps">0.00</p>
+      <button onclick="epicclick()">click here</button>
+      <br></br>
+      <left>
+        <button onclick="up_click()" id="clicker">upgrade your keyboard<br>cost:5</button>
+      </left>
     </div>
-    <button onclick="click()">click here</button>
+    
+    <br>
+    <br>
+    
+    <div class="shop">
+      <left>
+      <div class="shop">
+        <h1>buy freind</h1>
+        <button onclick="freind_buy()" id="freind">cost:100</button>
+        <p id="freind_amount"> you have 0 freinds</p>
+        <p>they can barely write code</p>
+      </div>
+      <div class="shop">
+        <h1>buy Osborne 1</h1>
+        <button id= "osborne"onclick="osborne_buy()">cost:5000</button>
+        <p id="osborne_amount"> you have 0 Osbore 1s</p>
+        <p>the first (and worst) compact computer according to google</p>
+      </div>
+      </left>
+    </div>
+    </center>
     <script src="script.js"></script>
   </body>
 </html>
