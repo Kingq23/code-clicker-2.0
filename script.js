@@ -24,6 +24,9 @@ function up_click() {
     setid("clicker","upgrade your keyboard<br>cost:"+click_price)
     setid("mon",code) 
   }
+  else{
+    console.log("no")
+  }
 }
 window.setInterval(function(){
   cps = freind + osborne * 20
