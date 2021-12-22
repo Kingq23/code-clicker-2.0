@@ -16,12 +16,11 @@ function getid(id){
   return returnthis
 }
 function up_click() {
-  if(code <= click_amount){
+  if(code >= click_amount){
     code = code - click_price
     click_amount = click_amount + 1*1.1
     click_price = click_price *1.5
-    click_price = Math.round(click_price)
-    click_amount = Math.round(click_amount)
+
     setid("clicker","upgrade your keyboard<br>cost:"+click_price)
     setid("mon",code) 
   }
