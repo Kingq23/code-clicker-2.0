@@ -16,7 +16,7 @@ function getid(id){
   return returnthis
 }
 function up_click() {
-  if(code >= click_amount){
+  if(code <= click_amount){
     code = code - click_price
     click_amount = click_amount + 1*1.1
     click_price = click_price *1.5
