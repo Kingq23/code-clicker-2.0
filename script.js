@@ -17,7 +17,7 @@ function getid(id){
 }
 function up_click() {
   if(code >= click_amount){
-    code = code - click_price
+    code = code - click_amount
     click_amount = click_amount + 1*1.1
     click_price = click_price *1.5
 
