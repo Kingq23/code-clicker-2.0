@@ -20,7 +20,8 @@ function up_click() {
     code = code - click_price
     click_amount = click_amount * 2
     click_price = click_price *2.5
-
+    click_amount = Math.round(click_amount)
+    click_price = Math.round(click_price)
     setid("clicker","upgrade your keyboard<br>cost:"+click_price)
     setid("mon",code) 
   }
